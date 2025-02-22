@@ -73,5 +73,14 @@
 }
 
 
-
-
+@media (max-width: 600px) {
+ .turn{
+    top : auto;
+    bottom: 50px;
+    
+ }
+ .key{
+    top : auto;
+    bottom: 50px;
+ }
+}
