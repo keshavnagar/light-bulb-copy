@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(63, 61, 61);
+}
+
+.wire{
+    height: 62vh;
+    width: 4px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+.bulb{
+    position: absolute;
+    transform:  rotate(180deg);
+    top: 60vh;
+    font-size: 4rem;
+}
+
+
+
+.key {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    background-color: #555;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.on .key{
+    background-color: rgb(59, 223, 59);
+}
+
+.on .bulb i {
+   color: yellow ;
+}
+
+.container.on{
+    background: radial-gradient(#555,#111);
+}
+
+
