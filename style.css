@@ -77,10 +77,11 @@
  .turn{
     top : auto;
     bottom: 50px;
-    
+    left: 110px;
  }
  .key{
     top : auto;
     bottom: 50px;
+    right: 110px;
  }
 }
