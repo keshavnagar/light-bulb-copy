@@ -49,8 +49,29 @@
    color: yellow ;
 }
 
+.turn {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    background-color: #555;
+    border-radius: 5%;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.turn i {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
 .container.on{
     background: radial-gradient(#555,#111);
 }
+
+
 
 
